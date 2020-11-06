@@ -1,17 +1,11 @@
-#include <iostream>
+#include "algorithm.h"
 
 int main()
 {
 	using namespace std;
 
-	std::cout << "Hello World!" << std::endl;
-
-	int i = 0;
-
-	for (i; i < 10; i++)
-	{
-		cout << i << endl;
-	} // Test comment!! 
-	// Let's make a game!
+	Sorting sort;
+	sort.listExample();
+	std::cout << "Test" << std::endl;
 	return 0;
 }
